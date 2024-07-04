@@ -1,0 +1,30 @@
+
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trzy kolumny z równej szerokości */
+    gap: 20px; /* Odległość między przyciskami */
+    margin-top: 20px; /* Miejsce między tytułem a przyciskami */
+  }
+  
+  .nav-button {
+    /* Styl przycisków nawigacyjnych */
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #435871;
+    border: transparent;
+    border-radius: 6px;
+  }
+  .bg{
+    background-color: #486947;
+  }
+  .nav-button:hover{
+    background-color: #213144;
+    cursor: pointer;
+  }
+  .bg:hover{
+    background-color:#273d26 ;
+  }
