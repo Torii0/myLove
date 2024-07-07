@@ -1,0 +1,38 @@
+@import url("https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css");
+@import url("https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css");
+@import url("https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-share.css");
+.overlay {
+  z-index: 10; /* Adjust z-index as needed */
+  overflow-y: auto; /* Enable scrolling within .overlay if needed */
+}
+
+.page {
+  overflow: auto; /* Enable scrolling for the entire page */
+}
+.gallery-footer {
+  font-size: 18px;
+  font-family: "Heebo", sans-serif;
+}
+.title {
+  margin-top: 30px;
+}
+.masonry-gallery-demo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Wyśrodkowanie zdjęć w poziomie */
+  margin-left: 80px;
+}
+
+.gallery-item {
+  flex: 1 1 100%; /* Każde zdjęcie zajmuje 30% szerokości kontenera, ale może się zmniejszać */
+  max-width: 10%; /* Maksymalna szerokość zdjęcia to 30% kontenera */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

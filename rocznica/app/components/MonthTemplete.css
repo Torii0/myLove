@@ -1,0 +1,51 @@
+.month-template {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  max-width: 1300px;
+}
+
+.month-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  flex: 1;
+  border: none;
+  height: 3px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.month-header h3 {
+  margin: 0 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+.month-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.month-img {
+  width: 300px;
+  height: auto;
+}
+
+.month-text {
+  flex: 1;
+  margin: 0 20px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.icon-arrow-mp {
+  cursor: pointer;
+  font-size: 24px;
+}

@@ -1,0 +1,19 @@
+.card-mess {
+  width: 30vw;
+  height: 80vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-image-mess {
+  height: 88%;
+  object-fit: cover;
+  overflow: hidden;
+  flex: 1;
+}
+
+.icon-arrow-mp {
+  width: 10vh;
+  height: 10vh;
+  cursor: pointer;
+}
