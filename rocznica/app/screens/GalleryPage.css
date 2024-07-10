@@ -20,7 +20,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Wyśrodkowanie zdjęć w poziomie */
+  justify-content: center;
   margin-left: 80px;
 }
 

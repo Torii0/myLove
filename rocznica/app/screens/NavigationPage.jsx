@@ -9,10 +9,10 @@ const buttons = [
   { label: "Wiadomości", linkTo: "/wiadomosci" },
   { label: "Galeria", className: "bg", linkTo: "/galeria" },
   { label: "Miesiące", className: "bg", linkTo: "/miesiace" },
-  { label: "Wycieczki", className: "bg" },
-  { label: "Jak się zaczęło?" },
-  { label: "List" },
-  { label: "Słoik" },
+  { label: "Wycieczki", className: "bg", linkTo: "/wycieczki" },
+  { label: "Jak się zaczęło?", linkTo: "/jak-sie-zaczelo" },
+  { label: "List", linkTo: "/list" },
+  { label: "Słoik", linkTo: "/sloik" },
 ];
 
 const NavigationPage = () => {

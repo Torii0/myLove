@@ -5,6 +5,7 @@ import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 const MonthTemplete = ({
   month,
   text,
+  text2,
   imgLeft,
   imgRight,
   handleNext,
@@ -24,6 +25,7 @@ const MonthTemplete = ({
         <img src={imgLeft} className="month-img" alt="" />
         <h5 className="month-text">{text}</h5>
         <img src={imgRight} className="month-img" alt="" />
+        <h5 className="month-text2">{text2}</h5>
         {handleNext && (
           <IoIosArrowDropright className="icon-arrow-mp" onClick={handleNext} />
         )}

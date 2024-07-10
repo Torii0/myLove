@@ -1,7 +1,7 @@
 .song-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    gap: 20px; /* Odległość między elementami siatki */
-    width: 70%;
-margin-top: 20px;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 20px; /* Odległość między elementami siatki */
+  width: 70%;
+  margin-top: 20px;
+}

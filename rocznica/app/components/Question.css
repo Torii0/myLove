@@ -1,0 +1,36 @@
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.question-text {
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 650px;
+  margin-bottom: 37px;
+}
+
+.answer-button {
+  text-decoration: none;
+}
+
+.answer-button button {
+  position: absolute;
+  padding: 20px 100px;
+  font-size: 26px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  background-color: #116d1a;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

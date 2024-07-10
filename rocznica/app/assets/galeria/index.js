@@ -53,6 +53,24 @@ import img51 from "./51.jpg";
 import img52 from "./52.jpg";
 import img53 from "./53.jpg";
 
+import img54 from "./54.jpg";
+import img55 from "./55.jpg";
+import img56 from "./56.jpg";
+import img57 from "./57.jpg";
+import img58 from "./58.jpg";
+import img59 from "./59.jpg";
+import img60 from "./60.jpg";
+import img61 from "./61.jpg";
+import img62 from "./62.jpg";
+import img63 from "./63.jpg";
+import img64 from "./64.jpg";
+import img65 from "./65.jpg";
+import img66 from "./66.jpg";
+import img67 from "./67.jpg";
+import img68 from "./68.jpg";
+import img69 from "./69.jpg";
+import img70 from "./70.jpg";
+
 export const images = {
   img1,
   img2,
@@ -106,7 +124,24 @@ export const images = {
   img50,
   img51,
   img52,
+  img69,
   img53,
+  img54,
+  img55,
+  img56,
+  img57,
+  img58,
+  img59,
+  img60,
+  img61,
+  img62,
+  img63,
+  img64,
+  img65,
+  img66,
+  img67,
+  img68,
+  img70,
 };
 
 export default images;

@@ -1,0 +1,22 @@
+.letter {
+  position: relative;
+  padding: 20px 40px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slight transparency for a layered look */
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px;
+  color: black;
+}
+.title-lp {
+  margin-top: 500px;
+  text-decoration: none;
+}
