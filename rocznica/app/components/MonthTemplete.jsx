@@ -23,9 +23,10 @@ const MonthTemplete = ({
           <IoIosArrowDropleft className="icon-arrow-mp" onClick={handlePrev} />
         )}
         <img src={imgLeft} className="month-img" alt="" />
-        <h5 className="month-text">{text}</h5>
+        <h5 className="month-text">
+          <div class="letter-mt">{text}</div>
+        </h5>
         <img src={imgRight} className="month-img" alt="" />
-        <h5 className="month-text2">{text2}</h5>
         {handleNext && (
           <IoIosArrowDropright className="icon-arrow-mp" onClick={handleNext} />
         )}

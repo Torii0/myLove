@@ -71,6 +71,28 @@ import img68 from "./68.jpg";
 import img69 from "./69.jpg";
 import img70 from "./70.jpg";
 
+import img71 from "./71.jpg";
+import img72 from "./72.jpg";
+import img73 from "./73.jpg";
+import img74 from "./74.jpg";
+import img75 from "./75.jpg";
+import img76 from "./76.jpg";
+import img77 from "./77.jpg";
+import img78 from "./78.jpg";
+import img79 from "./79.jpg";
+import img80 from "./80.jpg";
+import img81 from "./81.jpg";
+import img82 from "./82.jpg";
+import img83 from "./83.jpg";
+import img84 from "./84.jpg";
+import img85 from "./85.jpg";
+import img86 from "./86.jpg";
+import img87 from "./87.jpg";
+import img88 from "./88.jpg";
+import img89 from "./89.jpg";
+import img90 from "./90.jpg";
+import img91 from "./91.jpg";
+
 export const images = {
   img1,
   img2,
@@ -142,6 +164,27 @@ export const images = {
   img67,
   img68,
   img70,
+  img71,
+  img72,
+  img73,
+  img74,
+  img75,
+  img76,
+  img77,
+  img78,
+  img79,
+  img80,
+  img81,
+  img82,
+  img83,
+  img84,
+  img85,
+  img86,
+  img87,
+  img88,
+  img89,
+  img90,
+  img91,
 };
 
 export default images;

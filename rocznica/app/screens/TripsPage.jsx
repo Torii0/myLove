@@ -3,51 +3,56 @@ import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import "./TripsPage.css";
 import MonthTemplete from "../components/MonthTemplete";
-import img1 from "../assets/galeria/1.jpg";
-import img2 from "../assets/galeria/2.jpg";
+import img1 from "../assets/wycieczki/wroclaw1.jpg";
+import img2 from "../assets/wycieczki/wroclaw2.jpg";
+import img3 from "../assets/wycieczki/krakow1.jpg";
+import img4 from "../assets/wycieczki/krakow2.jpg";
+import img5 from "../assets/wycieczki/park1.jpg";
+import img6 from "../assets/wycieczki/park2.jpg";
+import img7 from "../assets/wycieczki/rower1.jpg";
+import img8 from "../assets/wycieczki/rower2.jpg";
+import img9 from "../assets/wycieczki/sosina1.jpg";
+import img10 from "../assets/wycieczki/sosina2.jpg";
+import img11 from "../assets/wycieczki/witosa1.jpg";
+import img12 from "../assets/wycieczki/witosa2.jpg";
+import img13 from "../assets/wycieczki/dc1.png";
+import img14 from "../assets/wycieczki/dc2.png";
 const TripsPage = () => {
   const monthsData = [
     {
       month: "Wrocław",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod optio, nostrum consectetur harum in nobis eius voluptatum explicabo laboriosam, numquam vero qui vel inventore ipsa esse incidunt! Ab, autem?",
       imgLeft: img1,
       imgRight: img2,
     },
     {
       month: "Kraków",
-      text: "Suspendisse potenti. Sed lectus est, bibendum in libero vel.",
-      imgLeft: "path_to_image5.jpg",
-      imgRight: "path_to_image6.jpg",
+      imgLeft: img3,
+      imgRight: img4,
     },
     {
       month: "Park Bogucki",
-      text: "Fusce auctor, nisl vel aliquam aliquam, nunc nisl suscipit odio.",
-      imgLeft: "path_to_image7.jpg",
-      imgRight: "path_to_image8.jpg",
+      imgLeft: img5,
+      imgRight: img6,
     },
     {
       month: "Wycieczki rowerowe",
-      text: "Maecenas vehicula erat et elit sodales, in facilisis urna accumsan.",
-      imgLeft: "path_to_image9.jpg",
-      imgRight: "path_to_image10.jpg",
+      imgLeft: img7,
+      imgRight: img8,
     },
     {
       month: "Sosina i Malediwy",
-      text: "Aenean nec erat ut neque commodo luctus sit amet non risus.",
-      imgLeft: "path_to_image11.jpg",
-      imgRight: "path_to_image12.jpg",
+      imgLeft: img9,
+      imgRight: img10,
     },
     {
       month: "Witosa - twoja szkoła",
-      text: "Nulla facilisi. Nulla nec magna condimentum, aliquet arcu vitae.",
-      imgLeft: "path_to_image13.jpg",
-      imgRight: "path_to_image14.jpg",
+      imgLeft: img11,
+      imgRight: img12,
     },
     {
       month: "Rozmowy na kamerce",
-      text: "Nulla facilisi. Nulla nec magna condimentum, aliquet arcu vitae.",
-      imgLeft: "path_to_image13.jpg",
-      imgRight: "path_to_image14.jpg",
+      imgLeft: img13,
+      imgRight: img14,
     },
   ];
 
